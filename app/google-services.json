@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "485598448323",
+    "project_id": "mingle-mind",
+    "storage_bucket": "mingle-mind.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485598448323:android:5bbf9764b819349de87076",
+        "android_client_info": {
+          "package_name": "com.example.minglemind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpb8CI3NPqeyX3ladvu72FdCVmRkbE30A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

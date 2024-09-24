@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MingleMind</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="search_user">Search User</string>
+    <string name="searching_user">searching user</string>
+    <string name="for_go_ingback">for_go_ingback</string>
+</resources>

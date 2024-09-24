@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="@dimen/_52dp"
+        android:layout_height="@dimen/_52dp"
+        android:background="@drawable/circuler_bg"
+        android:src="@drawable/baseline_person_24"
+        android:padding="@dimen/_4dp"
+        android:backgroundTint="@color/offWihte"
+        android:layout_centerInParent="true"
+        android:id="@+id/profile_pic_image"
+        />
+
+</LinearLayout>

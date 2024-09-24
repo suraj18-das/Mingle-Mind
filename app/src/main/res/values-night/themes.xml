@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MingleMind" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/Primary_Color_mint</item>
+        <item name="colorSecondary">@color/Secondary_Color_SoftYellow</item>
+        <item name="android:colorAccent">@color/Accent_Color</item>
+    </style>
+</resources>

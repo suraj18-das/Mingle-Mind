@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary_Color_mint"
+    tools:context=".SplashActivity">
+    
+    <ImageView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_200dp"
+        android:id="@+id/LogoPic"
+        android:layout_centerInParent="true"
+        android:src="@drawable/baseline_chat_24"
+        />
+
+    <TextView
+        android:id="@+id/LogoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LogoPic"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/macondo"
+        android:text="MingleMind"
+        android:textColor="@color/Gray"
+        android:textSize="@dimen/_36sp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:layout_width="@dimen/_32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LogoText"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/developper"
+        android:layout_alignParentBottom="true"
+        android:text="Developed by Suraj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_12dp"
+        android:textSize="@dimen/_17sp"
+        android:textStyle="bold|italic"/>
+
+</RelativeLayout>

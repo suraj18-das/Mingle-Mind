@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_20dp"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    
+    <ImageView
+        android:layout_width="@dimen/_160dp"
+        android:layout_height="@dimen/_160dp"
+        android:id="@+id/profile_pictur"
+        android:background="@drawable/circuler_bg"
+        android:src="@drawable/baseline_person_24"
+        android:backgroundTint="@color/Primary_Color_mint"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="@dimen/_40dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:padding="@dimen/_10dp"
+        android:layout_margin="@dimen/_10dp"
+        android:background="@drawable/edittext_bg_round"
+        android:elevation="@dimen/_5dp"
+        android:id="@+id/profile_userName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:padding="@dimen/_10dp"
+        android:layout_margin="@dimen/_10dp"
+        android:background="@drawable/edittext_bg_round"
+        android:elevation="@dimen/_5dp"
+        android:enabled="false"
+        android:id="@+id/profile_phone"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded_bg"
+        android:text="update profile"
+        android:layout_marginTop="@dimen/_20dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_17sp"
+        android:textStyle="bold"
+        android:elevation="@dimen/_5dp"
+        android:id="@+id/profile_update_btn"
+        />
+        <ProgressBar
+            android:layout_width="@dimen/_32dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/profileProgress"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logoutBtn"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18sp"
+        />
+
+</LinearLayout>
